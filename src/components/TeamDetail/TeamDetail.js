@@ -18,7 +18,7 @@ const TeamDetail = () => {
         fetch(url)
         .then(res => res.json())
         .then(data => setTeam(data.teams[0]))
-    }, [])
+    }, [teamId])
     return (
         <div>
             <div className="banner">
