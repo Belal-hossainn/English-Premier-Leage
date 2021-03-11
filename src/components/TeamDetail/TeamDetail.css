@@ -1,0 +1,31 @@
+.team-container{
+    display:flex;
+    border:1px solid blue;
+    width: 70%;
+    height:270px;
+    border-radius: 20px;
+    background-color: blue;
+    color: white;
+    padding-left: 30px;
+    padding-top: 10px;
+    margin-left:150px;
+    
+}
+.team-container img{
+ width: 350px;
+ height: 250px;
+ margin-left: 400px;
+
+}
+.team-description{
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right:20px;
+}
+.social-media img{
+    width: 60px;
+    height: 60px;
+}
+.social-media{
+    text-align: center;
+}
